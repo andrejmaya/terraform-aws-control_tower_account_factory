@@ -51,7 +51,7 @@ phases:
           unzip -o terraform_${TF_VERSION}_linux_amd64.zip && mv terraform /usr/bin
           terraform --version
           cd $DEFAULT_PATH/terraform
-          echo "Andrej BEGIN"
+          echo "Andrej aft account request BEGIN"
           echo "TF_DISTRIBUTION: $TF_DISTRIBUTION" 
           echo "CT_MGMT_REGION: $CT_MGMT_REGION"
           echo "TF_BACKEND_REGION: $TF_BACKEND_REGION"
